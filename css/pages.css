@@ -1,0 +1,173 @@
+.rotate-arrow-1 {
+    transform: rotate(-93deg);
+    transition: 0.2s ease;
+}
+
+.categories-drop-par{
+   transform: scaleY(0);
+   transition: 0.3s ease;
+   transform-origin: center top 0px;
+}
+
+.categoriesDrop-par{
+   transform: scaleY(1);
+}
+
+.rotate-arrow_1{
+    transform: rotate(0deg);
+}
+
+.car-card-1{
+    margin: 10px 0;
+}
+
+
+.footer-2{
+    margin-top: 50px;
+    background-color: rgb(15, 52, 96);
+    padding: 59px 0;
+}
+
+
+
+.pagination-section{
+    margin: 50px 0;
+}
+
+.pagination-nav{
+    justify-content: flex-end;
+}
+
+.page-link{
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    border: none;
+    color: black;
+}
+
+.page-link:focus{
+    box-shadow: none;
+}
+
+.active{
+    border: 1px solid rgb(233, 69, 96);
+    color: rgb(233, 69, 96);
+}
+
+
+.page-link:hover{
+    background-color: white;
+    border: 1px solid  rgb(233, 69, 96);
+    color: rgb(233, 69, 96);
+
+}
+
+
+
+.page-item:first-child .page-link{
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    box-shadow: none;
+    border-radius: 50%;
+    border: 1px solid  rgb(233, 69, 96);
+    color: rgb(233, 69, 96);
+}
+
+.page-item:last-child .page-link{
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid  rgb(233, 69, 96);
+    color: rgb(233, 69, 96);
+}
+
+
+
+.Flash_details-section{
+   margin-top: 30px;
+}
+
+.Flash_details-section h3{
+    color: rgb(233, 69, 96);
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.Flash_details-section h3 span{
+    color: rgb(125, 135, 156);
+}
+
+
+
+.flash-details-card{
+    position: relative;
+     padding: 50px;
+     border: 1px solid rgb(218, 225, 231);
+     border-radius: 5px;
+     background: white;
+     cursor: pointer;
+     margin: 15px 0;
+}
+
+.flash-details-card-content{
+    text-align: center;
+}
+
+.flash-details-card-content i{
+    padding-bottom: 5px;
+    font-size: 25px;
+    color: rgb(43, 52, 69);
+}
+.flash-details-card-content p{
+    font-weight: 600;
+    color: rgb(43, 52, 69);
+}
+
+.flash-priceOff-span-1{
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    font-size: 11px;
+    background-color: rgb(227, 233, 239);
+    color: black;
+    padding: 4px 5px;
+    border-radius: 20px;
+}
+
+
+.flash-style .flash-priceOff-span-1{
+    background-color: red;
+}
+
+
+
+@media screen and (max-width:768px){
+    .Flash_details-section h3{
+        font-size: 28px;
+    }
+    .Flash_details-section h3 span{
+        display: block;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .pagination-nav{
+        flex-wrap: wrap;
+    }
+.page-link{
+    margin: 10px ;
+}
+
+.page-item:first-child .page-link{
+    margin: 10px 3px;
+}
+}

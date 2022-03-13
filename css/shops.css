@@ -1,0 +1,303 @@
+.all-shops-section{
+    margin-top: 20px;
+}
+
+.shops-title h3{
+    font-weight: 600;
+}
+
+.shops-card{
+    margin-top: 20px;
+}
+
+.shops-card-1{
+    box-shadow: rgba(3, 0, 71, 0.09) 0px 1px 3px;
+    border-radius: 0 0 10px 10px;
+}
+
+.img-text {
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/cycle-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+.img-text-2 {
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-2:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+
+.img-text-3 {
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-3:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.img-text-4 {
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-4:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.img-text-5 {
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-5:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(4\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+.img-text-6 {
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-6:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+
+.img-text-7{
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-7:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(6\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+.img-text-8{
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-8:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(7\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+
+.img-text-9{
+    background-image: linear-gradient(rgba(43, 52, 69, 0.8), rgba(43, 52, 69, 0.8)),
+     url(../images/banner-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18px 20px;
+    border-radius: 10px 10px 0 0;
+    filter: blur();
+}
+
+.img-text-9:after{
+    content: '';
+    position: absolute;
+    width: 65px;
+    bottom: -35px;
+    height: 65px;
+    background-image: url(../images/propic\(8\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+
+
+.img-name{
+    color: white;
+}
+
+span .yellow-star{
+    color: rgb(254, 184, 6);
+}
+
+.location-p{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 40px;
+    margin: 3px;
+}
+
+.location-p i{
+    color: white;
+    padding-right: 5px;
+}
+
+.phone-number-p{
+    color: white;
+    font-size: 14px;
+}
+
+.arrow-smal-img{
+     padding: 7px 10px;
+}
+
+.arrow-smal-img-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.arrow-smal-img-span:hover{
+    background-color: rgb(243, 245, 249);
+}
+
+.arrow-smal-img-span i{
+    color: gray;
+    font-size: 18px;
+}

@@ -1,0 +1,325 @@
+.orders-section{
+    margin-top: 50px;
+}
+
+
+.dashboard-par-3{
+    display: none;
+}
+
+
+.dashboard-par-3 ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.dashboard-par-3 .dashboard-ul-2{
+    margin: 10px 0;
+}
+
+.dashboard-par-3 ul li .dashboard-title{
+    display: block;
+    font-family: sans-serif;
+    color: rgb(125, 135, 156);
+    font-size: 12px;
+    padding: 14px 20px 3px ;
+}
+
+.Account-setting-title{
+    font-family: sans-serif;
+    color: rgb(125, 135, 156);
+    font-size: 12px;
+    display: block;
+    padding: 14px 20px 3px ;
+}
+
+.dashboard-par-3 ul li a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 15px ;
+    font-size: 15px;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.dashboard-par-3 ul li a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 22px;
+    width: 4px;
+    background-color: rgb(233, 69, 96);
+    display: none;
+}
+.dashboard-par-3 ul li a:hover:before{
+    display: block;
+}
+
+
+.dashboard-par-3 ul li a:hover{
+    color:  rgb(233, 69, 96);
+}
+
+.dashboard-par-3 ul li a:hover i{
+    color:  rgb(233, 69, 96);
+}
+
+.dashboard-par-3 ul li a i{
+    display: block;
+    padding: 0 8px;
+    font-size: 15px;
+    color: rgb(125, 135, 156);
+}
+
+.dashboard-par-3 ul li a span{
+    margin-left: auto;
+}
+
+
+
+
+.dashboard-par-2{
+    position: relative;
+    box-shadow: rgba(4, 0, 71, 0.263) 0px 1px 3px;
+
+}
+
+.dashboard-par-2 ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.dashboard-par-2 .dashboard-ul-2{
+    margin: 10px 0;
+}
+
+
+.dashboard-par-2 ul li a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 7px 15px ;
+    font-size: 15px;
+    color: black;
+    transition: 0.5s ease;
+    margin: 3px 0;
+}
+
+.dashboard-par-2 ul li a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 22px;
+    width: 4px;
+    background-color: rgb(233, 69, 96);
+    display: none;
+}
+.dashboard-par-2 ul li a:hover:before{
+    display: block;
+}
+
+.dashboard-par-2 ul li a i{
+    display: block;
+    padding: 0 8px;
+    font-size: 15px;
+    color: rgb(125, 135, 156);
+}
+
+.dashboard-par-2 ul li a span{
+    margin-left: auto;
+}
+
+.dashboard-par-2 ul li  .products-active{
+    color: rgb(233, 69, 96);
+}
+.dashboard-par-2 ul li  .products-active i{
+    color: rgb(233, 69, 96);
+}
+
+
+.dashboard-par-2 ul li .products-active:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 22px;
+    width: 4px;
+    background-color: rgb(233, 69, 96);
+    display: block;
+}
+
+.dashboard-par-2 ul li a:hover{
+    color:  rgb(233, 69, 96);
+}
+
+.dashboard-par-2 ul li a:hover i{
+    color:  rgb(233, 69, 96);
+}
+
+
+
+
+.order-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.order-title h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+
+.order-title h3 i{
+    color: rgb(233, 69, 96);
+}
+
+
+.about-order{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+
+.order-div{
+    width: 23%;
+
+}
+
+.order-div span{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(125, 135, 156);
+}
+
+.order-text-1 .padding-span{
+  display: inline;
+  padding: 1px 9px;
+  font-size: 15px;
+  font-weight: 100;
+  border-radius: 300px;
+    background-color: rgba(15, 52, 96, 0.2);
+}
+
+.order-text-1 .padding-red-span{
+    background-color: rgb(255, 225, 230);
+    color: rgb(233, 69, 96);
+}
+
+.order-text-1 .padding-green-span{
+    background-color: rgba(51, 208, 103, 0.15);
+    color: rgb(51, 208, 103);
+}
+
+.order-text-par{
+    display: flex;
+    padding: 10px 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: rgba(4, 0, 71, 0.181) 0px 1px 3px;
+
+}
+
+.order-arrow i{
+    font-size: 18px;
+    color: rgb(125, 135, 156);
+}
+
+.order-text-1{
+    width: 22.8%;
+}
+.order-text-1 span{
+    font-weight: 600;
+}
+
+
+.hamburger{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+}
+
+
+.backdrop-5{
+    position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   z-index: 900;
+   background: rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%;
+   display: none;
+
+}
+
+
+.footer-1{
+    padding: 59px 0;
+    background-color: rgb(15, 52, 96);
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1330px){
+    .footer-1{
+        padding: 105px 0px;
+    }
+ 
+}
+
+@media screen and (max-width:991px){
+    .dashboard-par-2{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .dashboard-slider-2{
+        padding: 20px 0;
+        position: fixed;
+        left: -200%;
+        z-index: 1000;
+        background-color: white;
+        height: 100vh;
+        top: 0;
+        width: 250px;   
+        display: block;
+        transition: 0.5s ease;
+    }
+    footer .footer-card{
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width:775px){
+    .about-order{
+        display: none;
+    }   
+}
+
+@media screen and (max-width:530px){
+    .order-arrow{
+        display: none;
+    }
+
+    .order-text-1{
+        width: 50%;
+        text-align: center;
+    }
+    .order-text-par{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

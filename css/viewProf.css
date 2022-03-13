@@ -1,0 +1,339 @@
+.myProfile-section{
+    margin-top: 50px;
+}
+
+.dashboard-par{
+    position: relative;
+    box-shadow: rgba(4, 0, 71, 0.263) 0px 1px 3px;
+}
+
+
+
+.dashboard-par ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.dashboard-par .dashboard-ul-2{
+    margin: 10px 0;
+}
+
+.dashboard-par ul li .dashboard-title{
+    display: block;
+    font-family: sans-serif;
+    color: rgb(125, 135, 156);
+    font-size: 12px;
+    padding: 14px 20px 3px ;
+}
+
+.Account-setting-title{
+    font-family: sans-serif;
+    color: rgb(125, 135, 156);
+    font-size: 12px;
+    display: block;
+    padding: 14px 20px 3px ;
+}
+
+.dashboard-par ul li a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 10px 15px ;
+    font-size: 15px;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.dashboard-par ul li a:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 22px;
+    width: 4px;
+    background-color: rgb(233, 69, 96);
+    display: none;
+}
+.dashboard-par ul li a:hover:before{
+    display: block;
+}
+
+.dashboard-par ul li .profile-active{
+    color: rgb(233, 69, 96);
+}
+
+.dashboard-par ul li .profile-active i{
+    color: rgb(233, 69, 96);
+}
+
+.dashboard-par ul li a:hover{
+    color:  rgb(233, 69, 96);
+}
+
+.dashboard-par ul li a:hover i{
+    color:  rgb(233, 69, 96);
+}
+
+.dashboard-par ul li a i{
+    display: block;
+    padding: 0 8px;
+    font-size: 15px;
+    color: rgb(125, 135, 156);
+}
+
+.dashboard-par ul li a span{
+    margin-left: auto;
+}
+
+.title-and-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-btn-par-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title-and-btn h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+.title-and-btn h3 i{
+    color: rgb(233, 69, 96);
+    font-size: 22px;
+}
+
+.Edit-profile{
+    text-decoration: none;
+    color: rgb(233, 69, 96);
+    font-weight: 600;
+    padding: 5px 20px;
+    background: rgb(255, 225, 230) none repeat scroll 0% 0%;
+}
+.Edit-profile:hover{
+    color: rgb(233, 69, 96);
+}
+
+.Edit-profile:focus{
+    box-shadow: none;
+}
+
+.profile-cards-par{
+    display: flex;
+    margin-top: 30px;
+}
+
+.profile-card-1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(4, 0, 71, 0.181) 0px 1px 3px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.name-balance{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 7px;
+}
+
+.name-balance h4{
+    transform: translateY(10px);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.name-balance p{
+    color: rgb(125, 135, 156);
+    transform: translateY(5px);
+    font-size: 14px;
+}
+
+.name-balance p span{
+    color: rgb(233, 69, 96);
+}
+
+.user-status{
+    margin-left: auto;
+    padding: 0 5px  0 7px;
+}
+
+.user-status p{
+    transform: translateY(7px);
+    font-size: 14px;
+    color: rgb(125, 135, 156);
+}
+
+.profile-cards2-par{
+    display: flex;
+    
+}
+
+.profile-card-2{
+    width: 25%;
+    padding: 5px 10px ;
+    box-shadow: rgba(4, 0, 71, 0.181) 0px 1px 3px;
+   margin: 0 10px;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.profile-card-2 h5{
+    color: rgb(233, 69, 96);
+    font-size: 18px;
+}
+
+.profile-card-2 p{
+    font-size: 14px;
+}
+
+.about-user{
+    padding: 10px 20px;
+    box-shadow: rgba(4, 0, 71, 0.181) 0px 1px 3px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ab-user-crd h6 {
+    font-size: 13px;
+    color: rgb(125, 135, 156);
+}
+
+.ab-user-crd p {
+    font-size: 14px;
+}
+
+
+
+.hamburger{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+}
+.hamburger i{
+    font-size: 20px;
+}
+
+
+
+.backdrop-3{
+    position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   z-index: 900;
+   background: rgba(0, 0, 0, 0.4) none repeat scroll 0% 0%;
+   display: none;
+
+}
+
+
+@media screen and (max-width:991px){
+    .dashboard-par{
+        display: none;
+    }
+
+    .profile-cards2-par{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  
+    .profile-card-2{
+        width: 47%;
+        margin: 5px;
+        padding: 0;
+    }
+
+    .title-btn-par-2{
+        width: auto;
+        display: block;
+    }
+      
+    .hamburger{
+        display: flex;
+    }
+
+    .dashboard-slider{
+        padding: 20px 0;
+        position: fixed;
+        left: -200%;
+        z-index: 1000;
+        background-color: white;
+        height: 100vh;
+        top: 0;
+        width: 250px;   
+        display: block;
+        transition: 0.5s ease;
+    }
+    
+
+}
+
+
+@media screen and (max-width:769px){
+    .profile-cards-par{
+        flex-wrap: wrap;
+    }
+    .profile-cards2-par{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .profile-card-1{
+        width: 100%;
+    }
+    
+    .profile-card-2{
+        width: 47%;
+        margin: 5px 2px;
+    }
+    .ab-user-crd{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:767px){
+   .about-user{
+       flex-wrap: wrap;
+   }
+   .ab-user-crd{
+       margin: 3px;
+   }
+   
+}
+
+@media screen and (max-width:334px){
+    .profile-card-1{
+        display: block;
+        text-align: center;
+    }
+    .user-status p{
+        transform: translateY(0px);
+    }
+    .name-balance p{
+        transform: translateY(7px);
+    }
+
+    .dashboard-slider{
+        width: 200px;
+    }
+}
